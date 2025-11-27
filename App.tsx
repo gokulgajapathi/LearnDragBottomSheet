@@ -15,9 +15,9 @@ function App() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       {/* Main container */}
-      <View style={styles.container}>
+      {/* <View style={styles.container}>
         <Text style={{ fontSize: 20, marginBottom: 20 }}>App</Text>
-      </View>
+      </View> */}
 
       {/* Bottom sheet should be OUTSIDE the centered container */}
       <GorhomBottomSheetExample />
